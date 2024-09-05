@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    inteiro cont, numero, soma
+    real media
+    cont = 0
+    soma = 0
+    faca {
+      escreva("Digite o ", ++cont, "° número: ")
+      leia(numero)
+      soma = soma + numero
+    } enquanto(cont < 10)
+
+    media = soma / cont
+
+    escreva("A média de ", soma," dividido por ", cont, " é igual a: ", media)
+  }
+}
+    
+  
